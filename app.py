@@ -1,8 +1,9 @@
 import math
 import constants
+import copy
 
-PLAYERS = constants.PLAYERS
-TEAMS = constants.TEAMS
+PLAYERS = copy.deepcopy(constants.PLAYERS)
+TEAMS = copy.deepcopy(constants.TEAMS)
 cleaned_players = []
 
 
